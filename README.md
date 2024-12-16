@@ -18,8 +18,11 @@ A linux kernel module that terminates user level processes once a specified memo
 
 
 ## Launch 2 python scripts to test functionality
-  python3 ./test/important.py
-  Python3 ./test/enough.py
+  
+  python3 ./test/important.py &
+  
+  Python3 ./test/enough.py &
+  
     #### Note - You will need to adjust the size of the dataframe in enough.py to exceed 80% ram
 
 
