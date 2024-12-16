@@ -152,5 +152,5 @@ module_init(ram_monitor_init);
 module_exit(ram_monitor_exit);
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Your Name");
+MODULE_AUTHOR("Nicholas Dinis");
 MODULE_DESCRIPTION("A Linux kernel module to monitor RAM and terminate processes.");
